@@ -1,0 +1,155 @@
+.signup-top > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(226, 168, 2);
+}
+.signup-top {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+.signup-top > div > h3 {
+  padding: 7px 0;
+  width: 100%;
+  font-size: x-large;
+  text-align: center;
+}
+.signup-container > img {
+  width: 40%;
+  height: 40%;
+}
+.signup-container {
+  width: 100vw;
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  margin-top: 150px;
+}
+.signup-container form {
+  width: 40%;
+}
+.signup-input {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+.signup-input input {
+  width: 100%;
+  padding: 10px 10px;
+  font-size: larger;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.signup-input > div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.signup-input > div > div {
+  display: flex;
+  margin-top: 20px;
+  width: 38%;
+  justify-content: flex-end;
+}
+.signup-input > div > input {
+  width: 20%;
+}
+.signup-input input:focus {
+  outline: none;
+}
+input[type="radio"] {
+  border: initial;
+}
+.show-password input {
+  width: max-content;
+}
+.show-password {
+  width: 100%;
+  margin: 20px 0;
+  justify-content: flex-start;
+}
+.already-user {
+  flex-direction: column;
+  margin-top: 20px;
+  line-height: 20px;
+  align-items: center;
+}
+.already-user > a {
+  color: rgb(226, 168, 2);
+  text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.678);
+}
+.already-user > a {
+  color: rgb(226, 168, 2);
+  text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.678);
+}
+.already-user > a:hover {
+  color: hsl(40, 5%, 12%);
+}
+.signup-input input[type="submit"] {
+  background-color: rgb(226, 168, 2);
+  border: 1px solid rgb(68, 68, 68);
+  border-radius: 4px;
+  font-size: 22px;
+  box-shadow: 1px 1px 1px black;
+  transition: all 0.5 ease-in-out;
+}
+.signup-input input[type="submit"]:hover {
+  background-color: hsl(40, 5%, 12%);
+  color: white;
+  text-shadow: none;
+}
+@media screen and (max-width: 820px) {
+  .signup-container img {
+    display: none;
+  }
+  .signup-container {
+    margin-top: 100px;
+  }
+  .signup-container form {
+    width: 70%;
+  }
+  .signup-input {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+  .signup-input input {
+    padding: 7px 7px;
+    font-size: large;
+  }
+}
+@media screen and (max-width: 820px) {
+  .signup-container img {
+    display: none;
+  }
+  .signup-container {
+    margin-top: 100px;
+  }
+  .signup-container form {
+    width: 70%;
+  }
+  .signup-input {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+  .signup-input input {
+    padding: 7px 7px;
+    font-size: large;
+  }
+}
+@media screen and (max-width: 500px) {
+  .signup-container {
+    margin-top: 60px;
+  }
+  .signup-container form {
+    width: 90%;
+  }
+}

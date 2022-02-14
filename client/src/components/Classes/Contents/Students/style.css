@@ -1,0 +1,57 @@
+.students-container > div {
+  display: flex;
+  margin: 25px 10px;
+  width: 100%;
+  background-color: #1f1e1c;
+  padding: 20px 40px;
+  color: white;
+  text-shadow: .5px .5px .5px rgba(126, 126, 126, 0.336);
+  align-items: center;
+  border-radius: 15px;
+}
+.students-container > div > img {
+  width: 120px;
+  border-radius: 50%;
+  margin-right: 70px;
+}
+.students-container h5 {
+  text-transform: capitalize;
+  font-size: 30px;
+}
+.students-container h6 {
+  font-size: 20px;
+}
+.students-container {
+  padding: 30px 100px;
+}
+.students-container p {
+  font-size: 20px;
+}
+.students-container p:first-child {
+  text-transform: capitalize;
+}
+@media screen and (max-width: 600px) {
+.students-container > div {
+  margin: 25px 0;
+  padding: 15px 10px;
+  border-radius: 10px;
+}
+.students-container > div > img {
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+.students-container h5 {
+  text-transform: capitalize;
+  font-size: 22px;
+}
+.students-container h6 {
+  font-size: 17px;
+}
+.students-container {
+  padding: 10px 2px;
+}
+.students-container p {
+  font-size: 16px;
+}
+}

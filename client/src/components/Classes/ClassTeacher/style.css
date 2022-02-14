@@ -1,0 +1,71 @@
+.classteacher-course-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.classteacher-class-box {
+  width: 93%;
+}
+.classteacher-class-box > div > div {
+  flex-wrap: wrap;
+  display: flex;
+  width: 21.6%;
+  margin: 0 1.5vw;
+  margin-bottom: 35px;
+}
+.classteacher-class-box > div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.classteacher-class-box > h5 > a {
+  font-size: x-large;
+}
+.classteacher-class-box > h5 {
+  margin-bottom: 20px;
+  padding-left: 1vw;
+  padding-bottom: 10px;
+  border-bottom: 2px outset black;
+}
+.classteacher-course-box {
+  margin: 0 3%;
+}
+
+@media screen and (max-width: 1200px) {
+  .classteacher-class-box > div > div {
+    width: 30%;
+    margin: 10px 1.52vw;
+  }
+}
+@media screen and (max-width: 820px) {
+  .classteacher-class-box > div > div {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .class-top h2 {
+    font-size: larger;
+    margin-top: 5px;
+  }
+  .class-top button {
+    font-size: large;
+    padding: 2px 5px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .classteacher-class-box {
+    width: 96.5%;
+  }
+  .classteacher-class-box h5 {
+    width: 99.5%;
+    margin-bottom: 3px;
+    margin-top: 3px;
+  }
+  .class-top button {
+    font-size: 15px;
+    padding: 2px 5px;
+  }
+  .classteacher-course-box {
+    margin: 0 1.5vw;
+  }
+}

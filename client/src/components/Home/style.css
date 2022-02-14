@@ -1,0 +1,299 @@
+.home-hero {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  overflow-y: hidden;
+  background-image: url("../../images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(226, 226, 226);
+  background-blend-mode: multiply;
+  box-shadow: 0px 1px 1px rgb(109, 109, 109);
+  justify-content: space-around;
+}
+.home-hero h1 {
+  font-size: 65px;
+}
+.home-hero h3 {
+  font-size: 20px;
+  margin: 5px 1px;
+}
+.home-hero button {
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  border-width: 1px;
+  background-color: white;
+}
+.home-hero-img {
+  width: 370px;
+  position: relative;
+  bottom: -65px;
+  /* background-color: rgb(226, 168, 2); */
+  /* background-color: rgb(245, 245, 245); */
+  box-shadow: 0px 0px 15px rgba(71, 71, 71, 0.705);
+  border-radius: 50%;
+}
+.home-info {
+  display: flex;
+  padding: 4vw;
+  /* margin:40px 15vw; */
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(245, 245, 245, 0.548);
+}
+.home-info h2 {
+  margin-bottom: 20px;
+}
+.home-info-benefits {
+  display: flex;
+  width: 60vw;
+  padding: 20px 0;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.home-info-benefits > div {
+  display: flex;
+  margin: 30px;
+}
+.home-info-benefits > div img {
+  width: 80px;
+}
+.home-p h4 {
+  margin-bottom: 10px;
+}
+.home-p {
+  width: 260px;
+  padding: 0px 10px;
+  padding-top: 30px;
+}
+.home-students-enrolling,
+.home-recently-started {
+  padding: 3vw;
+}
+.home-students-enrolling h2,
+.home-recently-started h2,
+.home-recently-started > h5 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.home-students-enrolling-courses,
+.home-recently-started-courses {
+  display: flex;
+  width: 94vw;
+  /* background-color: aqua; */
+  align-items: center;
+  overflow: hidden;
+}
+.home-students-enrolling-courses-box,
+.home-recently-started-courses-box {
+  display: flex;
+  /* background-color: aqua; */
+  transition: all 0.5s ease-in-out;
+  align-items: center;
+}
+.home-students-enrolling-courses-box > div,
+.home-recently-started-courses-box > div {
+  margin: 1vw 3.5vw;
+  width: 16.5vw;
+}
+.home-gt-btn {
+  height: min-content;
+  font-size: xx-large;
+  padding: 10px 2px;
+  position: absolute;
+  z-index: 2;
+  right: 2.8vw;
+}
+.home-lt-btn {
+  height: min-content;
+  font-size: xx-large;
+  z-index: 2;
+  padding: 10px 2px;
+  position: absolute;
+  left: 2.8vw;
+}
+.home-recently-started {
+  background-color: rgba(245, 245, 245, 0.548);
+}
+.home-top-categories {
+  padding: 3vw;
+  /* background-color: rgb(226, 168, 2); */
+  background-color: rgba(245, 245, 245, 0.548);
+}
+.home-top-categories h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.home-top-categories ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.home-top-categories ul li a p {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 1.5vw;
+}
+.home-top-categories img {
+  width: 20vw;
+}
+
+.home-become-instructor {
+  display: flex;
+  margin: 60px 0;
+  justify-content: center;
+  align-items: center;
+}
+.home-become-instructor button {
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  border-width: 1px;
+  background-color: white;
+}
+.home-become-instructor div {
+  padding: 0 5vw;
+  width: 30vw;
+}
+.home-become-instructor h2 {
+  margin-bottom: 12px;
+  font-size: xx-large;
+}
+.home-container footer {
+  height: 250px;
+  text-align: center;
+  margin-top: 60px;
+     background-color: #1f1e1c;
+     color: white;
+}
+@media screen and (max-height: 460px) {
+  .home-hero {
+    height: 300px;
+  }
+  .home-hero-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1335px) {
+  .home-info-benefits {
+    width: 70vw;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .home-info-benefits {
+    width: 90vw;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .home-students-enrolling-courses-box > div,
+  .home-recently-started-courses-box > div {
+    margin: 1vw 3vw;
+    width: 25.33vw;
+    transform: translateX(0);
+  }
+}
+@media screen and (max-width: 920px) {
+  .home-gt-btn {
+    display: none;
+  }
+  .home-students-enrolling-courses-box > div,
+  .home-recently-started-courses-box > div {
+    margin: 1vw 3.5vw;
+    width: 25vw;
+  }
+  .home-lt-btn {
+    display: none;
+  }
+  .home-hero-img {
+    display: none;
+  }
+  .home-students-enrolling-courses,
+  .home-recently-started-courses {
+    overflow: scroll;
+  }
+
+  .home-become-instructor div {
+    width: max-content;
+  }
+  .home-become-instructor img {
+    width: 250px;
+  }
+  .home-top-categories ul li a p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .home-hero h1 {
+    font-size: 44px;
+  }
+  .home-hero h3 {
+    font-size: 15px;
+  }
+  .home-students-enrolling-courses-box > div,
+  .home-recently-started-courses-box > div {
+    margin: 1vw 5vw;
+    width: 37.33vw;
+  }
+  .home-hero button {
+    font-size: 15px;
+    margin-top: 5px;
+    padding: 5px 8px;
+    border-radius: 20px;
+  }
+  .home-top-categories ul li a p {
+    font-size: 13px;
+  }
+  .home-become-instructor {
+    margin: 40px 0;
+  }
+  .home-become-instructor button {
+    font-size: 15px;
+    margin-top: 15px;
+    padding: 4px 8px;
+    border-radius: 3px;
+  }
+  .home-become-instructor div {
+    padding: 0 15px;
+  }
+  .home-become-instructor h2 {
+    margin-bottom: 9px;
+    font-size: large;
+  }
+  .home-become-instructor img {
+    width: 180px;
+  }
+  .home-become-instructor p {
+    font-size: small;
+  }
+}
+@media screen and (max-width: 400px) {
+  .home-hero h1 {
+    font-size: 38px;
+  }
+  .home-info-benefits > div img{
+    width: 70px;
+  }
+  .home-become-instructor p{
+    font-size: 11.5px;
+  }
+  .home-become-instructor button{
+    font-size: 12px;
+  }
+  .home-become-instructor img{
+    width: 160px;
+  }
+  .home-hero h3 {
+    font-size: 14px;
+  }
+  .home-hero button {
+    font-size: 13px;
+    border-radius: 16px;
+  }
+}

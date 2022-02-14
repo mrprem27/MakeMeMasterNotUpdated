@@ -1,0 +1,152 @@
+.studentcomment-container h4 {
+  font-size: 25px;
+  padding-top: 10px;
+  border-top: 5px solid black;
+  margin-top: 20px;
+}
+.studentcomment-container {
+  width: 100%;
+}
+.studentcomment-container > button {
+  font-size: 20px;
+  margin: 20px 0;
+  padding: 4px 10px;
+}
+.studentcomment-container > div {
+  width: 40%;
+  background-color: #1f1e1c;
+  color: white;
+}
+.studentcomment-container > div > form > input {
+  width: 80%;
+  margin-top: 5px;
+  font-size: 25px;
+  padding: 10px 8px;
+  border: none;
+  /* border-bottom: 2px solid black; */
+}
+.studentcomment-container > div > form > button {
+  width: 20%;
+  font-size: 25px;
+  padding: 10px 8px;
+  border: none;
+  /* border-bottom: 2px solid black; */
+}
+.studentcomment-container > div > form > input:focus {
+  outline: none;
+}
+.studentcomment-container > div {
+  width: 50%;
+  margin-top: 15px;
+  border-radius: 8px;
+  border: 10px solid rgb(226, 168, 2);
+}
+.studentcomment-scroll {
+  padding: 20px 0;
+  font-size: larger;
+  line-height: 20px;
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 50vh;
+  overflow-y: scroll;
+}
+.comment-by-me {
+  width: 100%;
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0;
+}
+.comment-by-other {
+  margin: 4px 10px;
+  max-width: 45%;
+  padding: 8px 10px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  width: max-content;
+  background-color: rgb(226, 168, 2);
+}
+.comment-by-me > div {
+  padding: 8px 10px;
+  border-radius: 5px;
+  margin: 4px 10px;
+  max-width: 45%;
+  background-color: white;
+  width: max-content;
+}
+.comment-by-other > div > p {
+  padding: 4px 0;
+  font-size: x-small;
+}
+.comment-by-me > div > p {
+  padding: 4px 0;
+  font-size: x-small;
+}
+.studentcomment-scroll > button {
+  background-color: rgba(255, 255, 255, 0.562);
+}
+@media screen and (max-width: 1100px) {
+  .studentcomment-container > div {
+    width: 100%;
+    border-radius: 8px;
+    border: 10px solid rgb(226, 168, 2);
+  }
+}
+@media screen and (max-width: 560px) {
+  .studentcomment-container > div {
+    width: 100%;
+    border-radius: 4px;
+    border: 6px solid rgb(226, 168, 2);
+  }
+  .studentcomment-container > div > form > input {
+    font-size: 20px;
+    padding: 8px 6px;
+    margin: 0;
+  }
+  .studentcomment-container > div > form > button {
+    font-size: 20px;
+    padding: 8px 6px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .studentcomment-container h4 {
+    font-size: 19px;
+    text-align: center;
+  }
+  .studentcomment-container > div > form > input {
+    font-size: 17px;
+    border: none;
+    padding: 6px 6px;
+  }
+  .studentcomment-container > div > form > button {
+    font-size: 17px;
+    padding: 6px 6px;
+    border: none;
+  }
+  .studentcomment-scroll {
+    padding: 12px 0;
+    font-size: medium;
+    line-height: 17px;
+  }
+  .comment-by-me {
+    margin: 5px 0;
+  }
+  .comment-by-other {
+    margin: 8px 8px;
+    max-width: 46%;
+    padding: 8px 8px;
+  }
+  .comment-by-me > div {
+    padding: 8px 8px;
+    border-radius: 5px;
+    margin: 3px 8px;
+    max-width: 46%;
+  }
+  .comment-by-other > div > p {
+    padding: 2px 0;
+  }
+  .comment-by-me > div > p {
+    padding: 2px 0;
+  }
+}

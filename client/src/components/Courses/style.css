@@ -1,0 +1,140 @@
+.courses-container {
+  display: flex;
+  width: 100%;
+}
+.courses-categories {
+  width: 20vw;
+  padding: 12px 0;
+  position: fixed;
+  overflow: scroll;
+  height: 94%;
+  background-color: #1f1e1c;
+}
+.courses-categories li {
+  list-style: none;
+  line-height: 38px;
+  padding: 5px 8px;
+  border-bottom: 1px inset black;
+  font-size: 16px;
+  margin-left: 7px;
+}
+.courses-categories li a{
+  color: white;
+}
+.courses-hero {
+  width: 80%;
+  position: relative;
+  left: 20%;
+  padding: 25px 4vw;
+  padding-left: 0;
+}
+.courses-hero-top {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 30px;
+  justify-content: space-around;
+}
+.courses-hero-top form {
+  justify-content: space-around;
+  width: 85%;
+  margin-top: 15px;
+  display: flex;
+}
+.courses-hero-top form input:focus {
+  outline: none;
+}
+.courses-hero-top form input {
+  min-width: 75%;
+  height: 30px;
+  font-size: 20px;
+  border: 0;
+  border-bottom: 3px inset black;
+}
+.courses-hero-top form button {
+  width: max-content;
+  padding: 3px 10px;
+  display: block;
+  font-size: 20px;
+}
+.courses-hero-top a {
+  position: absolute;
+  top: 10px;
+}
+.courses-box > div {
+  width: 100%;
+  margin: 20px 5px;
+}
+@media screen and (max-width: 1150px) {
+  .courses-categories li {
+    font-size: small;
+    border-width: 2px;
+  }
+  .courses-categories {
+    width: 20vw;
+  }
+
+  .courses-hero-top form button {
+    width: max-content;
+    padding: 1px 5px;
+    /* font-size: 20px; */
+  }
+  .courses-box > div {
+    width: 90%;
+    margin: 20px 5px;
+    margin-left: 4vw;
+  }
+  .courses-hero-top a {
+    top: 15px;
+  }
+}
+@media screen and (max-width: 820px) {
+  .courses-categories {
+    display: none;
+  }
+  .courses-hero {
+    position: unset;
+    padding: 0;
+    padding-top: 30px;
+    width: 100vw;
+  }
+  .courses-hero-top a {
+    font-size: small;
+    top: 75px;
+  }
+  .courses-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .courses-box > div {
+    width: 100%;
+    margin: 0;
+    padding: 10px 10px;
+  }
+  .courses-hero-top form input {
+    width: 75%;
+    height: 30px;
+    font-size: 16px;
+    border: 0;
+    border-bottom: 3px inset black;
+  }
+  .courses-hero-top form button {
+    padding: 2px 4px;
+    margin: 5px;
+    font-size: 15px;
+  }
+  .courses-hero {
+    padding-top: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .courses-hero-top {
+    margin-bottom: 5px;
+  }
+  .courses-hero {
+    padding-top: 2px;
+  }
+  .courses-hero-top form {
+    width: 80%;
+  }
+}

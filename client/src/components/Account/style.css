@@ -1,0 +1,224 @@
+.account-top {
+  display: flex;
+  padding: 20px 50px;
+  background-color: hsl(40, 5%, 12%);
+  align-items: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+  border-bottom: 10px solid rgb(211, 155, 1);
+}
+
+.account-top img {
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px black;
+  width: 350px;
+  margin-right: 100px;
+}
+.account-review {
+  font-size: large;
+  margin-bottom: 10px;
+  margin-top: 2px;
+  font-weight: 600;
+}
+.account-activeClasses,
+.account-myCourses {
+  width: 100%;
+}
+.account-activeClasses > section > div,
+.account-myCourses > section > div,
+.account-wishlist > section > div {
+  width: 22.35%;
+  margin: 0 1.3vw;
+}
+.account-activeClasses > section,
+.account-myCourses > section,
+.account-wishlist > section {
+  display: flex;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.account-activeClasses > section,
+.account-myCourses > section,
+.account-active-task-box {
+  background-color: rgba(231, 231, 231, 0.493);
+}
+.account-active-task-box {
+  padding: 15px 0;
+}
+.account-activeClasses > section {
+  padding-top: 20px;
+}
+.account-section-top {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 24px;
+  margin-top: 50px;
+}
+.account-section-top h3 {
+  font-size: 29px;
+}
+.account-section-top button,
+.account-edit-profile-btn {
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding: 4px 8px;
+}
+.account-container > button {
+  font-size: 18px;
+  margin-left: 20px;
+  padding: 4px 8px;
+  margin: 40px 25px;
+}
+.accoun-top-section {
+  line-height: 30px;
+}
+.accoun-top-section > div {
+  display: flex;
+  margin-bottom: 10px 0;
+}
+.accoun-top-section > div > p {
+  margin-left: 35px;
+}
+.accoun-top-section h2 {
+  font-size: xx-large;
+  text-transform: capitalize;
+}
+@media screen and (max-width: 920px) {
+  .account-top {
+    padding: 7px 20px;
+    line-height: 24px;
+  }
+  .account-top img {
+    width: 280px;
+    margin-right: 80px;
+  }
+  .account-activeClasses > section > div,
+  .account-myCourses > section > div,
+  .account-wishlist > section > div {
+    width: 40%;
+    margin: 0 5vw;
+  }
+}
+@media screen and (max-width: 820px) {
+  .account-top {
+    padding: 7px 20px;
+    line-height: 22px;
+  }
+  .account-top img {
+    width: 220px;
+    margin-right: 80px;
+  }
+  .accoun-top-section > div {
+    margin: 3px 0;
+  }
+  .account-myCourses > section > div,
+  .account-wishlist > section > div {
+    width: 40%;
+    margin: 0 5vw;
+  }
+  .account-activeClasses > section > div {
+    width: 80%;
+    margin: 20px 20px;
+  }
+  .account-section-top h3 {
+    font-size: 24px;
+  }
+  .account-section-top button,
+  .account-edit-profile-btn {
+    font-size: 14px;
+    margin-bottom: 7px;
+    padding: 2.5px 4px;
+  }
+  .account-container > button {
+    font-size: 16px;
+    padding: 3.5px 6px;
+    margin: 35px 20px;
+  }
+  .account-section-top {
+    margin-top: 30px;
+    margin-left: 35px;
+  }
+  .accoun-top-section {
+    line-height: 22px;
+  }
+  .accoun-top-section h2 {
+    font-size: x-large;
+  }
+  .account-review {
+    font-size: medium;
+  }
+  .account-top p,
+  .account-top i {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .account-top {
+    padding: 5px 2vw;
+  }
+  .account-top img {
+    width: 30vw;
+    margin-right: 12vw;
+  }
+  .account-myCourses > section > div,
+  .account-wishlist > section > div {
+    width: 42%;
+    margin: 0 4vw;
+  }
+  .account-section-top h3 {
+    font-size: 6vw;
+  }
+  .account-activeClasses > section {
+    padding-top: 3px;
+  }
+  .account-section-top button,
+  .account-edit-profile-btn {
+    font-size: 3vw;
+    margin-bottom: 5px;
+    padding: 2px 5px;
+  }
+  .account-container > button {
+    margin: 10px 10px;
+    font-size: medium;
+  }
+  .account-section-top {
+    margin-top: 38px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+  .accoun-top-section {
+    line-height: 3.8vw;
+  }
+  .accoun-top-section h2 {
+    font-size: 4.5vw;
+  }
+  .account-review {
+    font-size: 2.9vw;
+  }
+  .account-top p,
+  .account-top i {
+    font-size: 2.8vw;
+  }
+}
+@media screen and (max-width: 650px) {
+  .account-top {
+    color: white;
+    text-shadow: 0.5px 0.5px 1px white;
+    width: 100%;
+    margin: 0;
+    padding: 10px inherit;
+    height: max-content;
+    border-radius: 0;
+  }
+}
+@media screen and (max-width: 530px) {
+  .account-activeClasses > section > div {
+    width: 100%;
+    margin: 10px 10px;
+  }
+  .account-top {
+    padding: 10px 15px;
+  }
+}

@@ -1,0 +1,112 @@
+.postview-container {
+  margin: 20px 50px;
+}
+.postview-hero h6 {
+  font-size: 30px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+  border-bottom: 3px solid black;
+}
+.postview-hero p {
+  font-size: 20px;
+  line-height: 22px;
+  margin: 20px 30px;
+}
+.postview-hero {
+  width: 65%;
+}
+.postview-hero-cover {
+  display: flex;
+  align-items: flex-start;
+}
+.postview-hero ul li {
+  list-style: none;
+  background-color: #1f1e1c;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  border-radius: 5px;
+  padding: 11px 15px;
+  margin: 5px 0;
+  width: 500px;
+}
+.postview-hero ul {
+  margin: 130px 0;
+  margin-bottom: 40px;
+  width: max-content;
+}
+.postview-hero ul li div > a,.teachertask-student ul li div>a {
+  color: rgb(226, 168, 2);
+}
+.postview-container > div > img,
+.postview-task {
+  width: 40%;
+  margin: 0;
+}
+.postview-task > div {
+  width: 100%;
+  margin: 20px 0;
+}
+@media screen and (max-width: 820px) {
+  .postview-container > div > img {
+    display: none;
+  }
+  .postview-hero > ul {
+    width: 100%;
+  }
+  .postview-hero {
+    /* float: left; */
+    width: 100%;
+  }
+}
+@media screen and (max-width: 660px) {
+  .postview-hero ul {
+    width: 90%;
+    margin: 50px 20px;
+  }
+  .postview-hero ul li {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 560px) {
+  .postview-container {
+    margin: 20px 0;
+  }
+  .postview-hero ul {
+    width: 100%;
+    padding: 2px;
+    margin: 20px 0;
+    margin-top: 100px;
+  }
+  .postview-hero p {
+    margin: 13px;
+  }
+  .postview-hero ul li {
+    font-size: small;
+  }
+  .postview-hero h6 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .postview-hero h6 {
+    font-size: 20px;
+  }
+  .postview-hero p {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .postview-hero ul li {
+    border-radius: 5px;
+    padding: 11px 15px;
+    width: 100%;
+    font-size: 12px;
+  }
+  .postview-hero ul li div > a {
+    color: rgb(226, 168, 2);
+  }
+}

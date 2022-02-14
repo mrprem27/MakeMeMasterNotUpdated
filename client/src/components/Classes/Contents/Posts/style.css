@@ -1,0 +1,38 @@
+.posts-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.posts-container>section{
+  width: 80%;
+}
+.posts-container button {
+  font-size: 2vw;
+  padding: 4px 15px;
+  margin: 20px 2px;
+}
+.posts-box {
+  width: 80%;
+}
+@media screen and (max-width: 820px) {
+  .posts-box {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .posts-box {
+    width: 99%;
+  }
+}
+@media screen and (max-width: 560px) {
+.posts-container>section{
+  width: 100%;
+}
+.posts-container button {
+  font-size: 18px;
+  padding: 2.5px 11px;
+  margin: 15px 2px;
+}
+}

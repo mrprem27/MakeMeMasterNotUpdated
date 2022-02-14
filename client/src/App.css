@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+* {
+  margin: 0;
+  padding: 0;
+    overflow-wrap: break-word;
+  box-sizing: border-box;
+      transition:background-color .3s ease-in-out,color .3s ease-in-out;
+  font-family: "Josefin Sans", cursive;
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+a:visited {
+  text-decoration: none;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+}
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  visibility: hidden;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(82, 78, 78, 0.733);
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+div::-webkit-scrollbar-track {
+  visibility: hidden;
+}
+div::-webkit-scrollbar-thumb {
+  visibility: hidden;
+}
+div::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  visibility: hidden;
+}
+
+.studentcomment-scroll>div::-webkit-scrollbar-thumb {
+  background: rgba(214, 214, 214, 0.945);
+  visibility: visible;
+  border-radius: 2px;
+}
+.studentcomment-scroll>div::-webkit-scrollbar-thumb:hover {
+  background: rgb(54, 54, 54);
+  visibility: visible;
+}

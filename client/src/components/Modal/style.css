@@ -1,0 +1,23 @@
+.modal > p {
+  position: fixed;
+  z-index: 10;
+  width: max-content;
+  top: 120px;
+  font-size: 17px;
+  justify-self: center;
+  background-color: rgb(226, 168, 2);
+  border: 1.2px solid black;
+  padding: 4px 6px;
+  border-radius: 6px;
+}
+.modal {
+  display: flex;
+  width: "100%";
+  justify-content: center;
+}
+@media screen and (max-width: 560px) {
+  .modal > p {
+    top: 80px;
+    font-size: 12px;
+  }
+}

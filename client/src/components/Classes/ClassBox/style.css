@@ -1,0 +1,112 @@
+.classBox-container {
+  width: 100%;
+  line-height: 22px;
+}
+.classBox-container img {
+  width: 100%;
+  margin-bottom: 8px;
+}
+.classBox-student {
+  font-size: 17px;
+}
+.classBox-student h2 {
+  font-size: large;
+}
+.classBox-center {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.classteacher-bottom {
+  color: black;
+  padding: 0 1px;
+  font-size: x-small;
+  /* background-color: rgba(214, 164, 36, 0.863); */
+}
+.classBox-active {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.classBox-active button {
+  padding: 1px 2px;
+  background-color:  #1f1e1c;
+  color: white;
+  border-color: rgb(168, 168, 168);
+}
+@media screen and (max-width: 1200px) {
+  .classBox-student {
+    font-size: medium;
+  }
+}
+@media screen and (max-width: 820px) {
+  .classBox-container {
+    display: flex;
+    align-items: center;
+  }
+  .classBox-center {
+    width: 60%;
+  }
+  .classBox-student {
+    font-size: large;
+    line-height: 30px;
+    margin-left: 40px;
+  }
+  .classBox-container img {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .classBox-student {
+    font-size: medium;
+    line-height: 26px;
+    margin-left: 20px;
+  }
+  .classBox-container img {
+    width: 45%;
+  }
+  .classBox-center {
+    width: 55%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .classBox-student {
+    font-size: larger;
+    line-height: 25px;
+    margin-left: 20px;
+  }
+  .classteacher-bottom {
+    color: white;
+  }
+  .classBox-active{
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  .classBox-active button{
+   margin:2px 2px;
+   padding:1px 2px ;
+  }
+  .classBox-center {
+    width: unset;
+    margin-left: 18px;
+    display: block;
+  }
+  .classBox-container {
+    background-image: url("../../../images/Snapchat-744599346\ \(2\).jpg");
+    height: 200px;
+    background-color: rgba(153, 116, 13, 0.959);
+    background-blend-mode: multiply;
+    text-shadow: 2px 2px 2px black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .classBox-container img {
+    display: none;
+  }
+  .classBox-student h3,
+  .classBox-student h5,
+  .classBox-student p {
+    color: white;
+  }
+}

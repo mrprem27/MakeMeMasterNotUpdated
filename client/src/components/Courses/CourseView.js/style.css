@@ -1,0 +1,401 @@
+.courseview-container {
+  padding: 1.5px 5%;
+  width: 100%;
+}
+.courseview-top {
+  padding: 0 2.8%;
+  padding-bottom: 25px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom: 12px solid rgb(211, 155, 1);
+  display: flex;
+  height: max-content;
+  background-color: #1f1e1c;
+}
+.courseview-top img {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
+  width: 42%;
+}
+.courseview-top > div {
+  width: 58%;
+}
+.courseview-top > div > p {
+  /* height: max-content; */
+  font-size: 2.1vw;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+  padding: 4px 23px;
+  margin-left: 35%;
+  width: max-content;
+  text-align: center;
+  background-color: rgb(226, 168, 2);
+}
+.courseview-details {
+  color: white;
+  text-shadow: 3px 3px 3px black;
+  height: max-content;
+  padding-left: 4vw;
+  margin-top: 6vw;
+  line-height: 3vw;
+  /* background-color: rgb(0, 0, 0); */
+}
+.courseview-details h1 {
+  font-size: 3.7vw;
+}
+.courseview-details p {
+  font-size: 1.7vw;
+}
+.courseview-box {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+}
+.courseview-pricebox {
+  display: flex;
+  align-items: center;
+}
+.courseview-pricebox h3 {
+  font-size: 3vw;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.363);
+}
+.courseview-pricebox h5 span {
+  font-size: 1.8vw;
+  color: rgba(78, 78, 78, 0.699);
+  text-shadow: 1px 1px 1px black;
+  text-decoration: line-through;
+}
+.courseview-pricebox h5 {
+  font-size: 2vw;
+  margin-left: 1vw;
+  color: rgba(0, 0, 0, 0.699);
+  text-shadow: 0.5px 0.5px 1px black;
+}
+.courseview-buybox {
+  width: 100%;
+  background-color: #1f1e1c;
+  display: flex;
+  box-shadow: 0 0.5px 2px rgba(20, 20, 20, 0.795);
+  justify-content: space-between;
+}
+.courseview-box button {
+  font-size: 1.5vw;
+  margin: 10px 10px;
+  text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.349);
+  padding: 0.3vw 0.7vw;
+}
+.courseview-objectives,
+.courseview-description,
+.courseview-ifrmae {
+  padding-top: 40px;
+  /* background-color: rgba(182, 182, 182, 0.473); */
+  padding-left: 10px;
+}
+.courseview-reviews h5,
+.courseview-objectives h5,
+.courseview-description>h5 {
+  font-size: 30px;
+  border-bottom: 3px solid black;
+  padding-bottom: 8px;
+}
+.courseview-objectives ul {
+  padding-top: 25px;
+  padding-left: 10px;
+  line-height: 42px;
+  list-style: none;
+}
+.courseview-objectives > ul > li:before  {
+  content: "✔";
+  padding-right: 10px;
+}
+.courseview-objectives ul li {
+  font-size: 25px;
+}
+.courseview-description>p {
+  line-height: 30px;
+  font-size: 25px;
+  padding-top: 20px;
+}
+.courseview-ifrmae iframe {
+  width: 70vw;
+  height: 39.375vw;
+}
+.courseview-ifrmae h5 {
+  font-size: 2.5vw;
+  margin-bottom: 2.8vw;
+}
+.courseview-ifrmae {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vw;
+  justify-content: center;
+}
+.courseview-teacher {
+  display: flex;
+  align-items: center;
+  width: 70vw;
+  border-radius: 5px;
+  border-bottom: 10px solid rgb(211, 155, 1);
+  margin-top: 30px;
+  /* background-color: #1f1e1c; */
+  /* margin-left: 10vw; */
+  box-shadow: 0px 20px 5px rgba(185, 185, 185, 0.185);
+}
+.courseview-teacher > span img {
+  width: 25vw;
+}
+.courseview-teacher-img {
+  width: 20vw;
+  margin-left: 1vw;
+  border-radius: 50%;
+}
+.courseview-teacher > div {
+  margin-left: 5%;
+  line-height: 30px;
+}
+.courseview-teacher > div p {
+  font-size: 1.5vw;
+}
+.courseview-teacher > div h3 {
+  font-size: 3vw;
+  text-transform: capitalize;
+}
+.courseview-reviews {
+  margin-top: 70px;
+}
+@media screen and (max-width: 820px) {
+  .courseview-top > div > p {
+    padding: 3px 16px;
+    margin-left: 35%;
+  }
+  .courseview-details h1 {
+    font-size: 4vw;
+  }
+  .courseview-details p {
+    font-size: 2vw;
+  }
+  .courseview-pricebox h3 {
+    font-size: 3.8vw;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.363);
+  }
+  .courseview-pricebox h5 span {
+    font-size: 2vw;
+  }
+  .courseview-pricebox h5 {
+    font-size: 2.4vw;
+  }
+  .courseview-box button {
+    font-size: 2vw;
+  }
+  .courseview-objectives,
+  .courseview-description,
+  .courseview-ifrmae {
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+  .courseview-reviews h5,
+  .courseview-objectives h5,
+  .courseview-description>h5 {
+    font-size: 21px;
+    padding-bottom: 6px;
+  }
+  .courseview-objectives > ul {
+    padding-top: 17px;
+    padding-left: 6px;
+    line-height: 39px;
+    list-style: none;
+  }
+  .courseview-objectives > ul > li:before  {
+    content: "✔";
+    padding-right: 10px;
+  }
+  .courseview-objectives > ul > li {
+    font-size: 21px;
+  }
+  .courseview-description>p {
+    line-height: 27px;
+    font-size: 20px;
+  }
+  .courseview-ifrmae iframe {
+    width: 70vw;
+    height: 39.375vw;
+  }
+  .courseview-ifrmae h5 {
+    font-size: 2.9vw;
+    margin-bottom: 3vw;
+  }
+  .courseview-teacher {
+    justify-content: center;
+    width: 100%;
+    border-radius: 5px;
+    border-bottom: 10px solid rgb(211, 155, 1);
+    margin-top: 30px;
+    /* background-color: #1f1e1c; */
+    /* margin-left: 10vw; */
+    box-shadow: 0px 20px 5px rgba(185, 185, 185, 0.185);
+  }
+  .courseview-teacher > span img {
+    height: 100%;
+  }
+  .courseview-teacher-img {
+    width: 22vw;
+  }
+  .courseview-teacher > div {
+    margin-left: 5%;
+    line-height: 30px;
+  }
+  .courseview-teacher > div p {
+    font-size: 2vw;
+  }
+  .courseview-teacher > div h3 {
+    font-size: 3.5vw;
+  }
+  .courseview-reviews {
+    margin-top: 55px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .courseview-container {
+    padding: 0;
+  }
+  .courseview-top {
+    flex-direction: column;
+    padding-bottom: 17px;
+    border-radius: 0;
+    padding: 0;
+    border-bottom: 10px solid rgb(211, 155, 1);
+  }
+  .courseview-top img {
+    width: 100%;
+  }
+  .courseview-top > div > p {
+    font-size: 2.7vw;
+    margin-left: 80vw;
+    padding: 2px 14px;
+  }
+  .courseview-top > div {
+    width: 100%;
+  }
+  .courseview-details {
+    padding-left: 6vw;
+    margin-bottom: 20px;
+    line-height: 20px;
+    width: 100%;
+  }
+  .courseview-details h1 {
+    font-size: 28px;
+  }
+  .courseview-details p {
+    font-size: 17px;
+  }
+  .courseview-box {
+    margin: 10px 0;
+    padding: 0;
+  }
+  .courseview-buybox {
+    margin: 0;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .courseview-pricebox h3 {
+    font-size: 28px;
+    margin-left: 10px;
+    margin-top: 5px;
+    text-shadow: 0.5px 0.5px 4px rgba(82, 82, 82, 0.363);
+  }
+  .courseview-pricebox h5 span {
+    font-size: 17px;
+    color: rgba(78, 78, 78, 0.699);
+    text-shadow: 0.5px 0.5px 1px black;
+  }
+  .courseview-pricebox h5 {
+    font-size: 19px;
+    margin-left: 17px;
+  }
+  .courseview-box button {
+    font-size: 20px;
+    margin: 10px;
+    text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.349);
+    padding: 1vw;
+  }
+  .courseview-objectives,
+  .courseview-description,
+  .courseview-ifrmae {
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+  }
+  .courseview-reviews h5,
+  .courseview-objectives h5,
+  .courseview-description>h5 {
+    padding-top: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-bottom: 3px solid black;
+    padding-bottom: 8px;
+  }
+  .courseview-objectives ul {
+    padding-top: 20px;
+    line-height: 34px;
+    padding-left: 15px;
+  }
+  .courseview-objectives > ul > li:before  {
+    content: "✔";
+    font-size: large;
+    padding-right: 10px;
+  }
+  .courseview-objectives ul li {
+    font-size: large;
+  }
+  .courseview-description>p {
+    line-height: 25px;
+    overflow-x: hidden;
+    padding-left: 10px;
+    font-size: large;
+    word-spacing: 1.8px;
+  }
+  .courseview-ifrmae iframe {
+    width: 90vw;
+    height: 50.625vw;
+  }
+  .courseview-ifrmae h5 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .courseview-ifrmae {
+    margin-top: 50px;
+    justify-content: center;
+  }
+  .courseview-teacher {
+    border-radius: 4px;
+    border-bottom: 10px solid rgb(211, 155, 1);
+  }
+  .courseview-teacher > span img {
+    width: 30vw;
+  }
+  .courseview-teacher-img {
+    width: 28vw;
+  }
+  .courseview-teacher > div {
+    margin-left: 5%;
+    line-height: 18px;
+  }
+  .courseview-teacher > div p {
+    font-size: 13px;
+  }
+  .courseview-teacher > div h3 {
+    font-size: 20px;
+  }
+  .courseview-reviews {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .courseview-ifrmae {
+    margin-top: 20px;
+  }
+    .courseview-top > div > p {
+    font-size: 2.8vw;
+    margin-left: 70vw;
+    padding: 2px 8px;
+  }
+}

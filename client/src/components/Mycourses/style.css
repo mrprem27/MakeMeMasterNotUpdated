@@ -1,0 +1,26 @@
+.mycourses-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.mycourses-box > div {
+  width: 300px;
+  margin: 1vw;
+}
+.mycourses-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mycourses-container >button {
+  font-size: 20px;
+  margin-top: 30px;
+  padding:5px 8px;
+
+}
+@media screen and (max-width: 625px) {
+  .mycourses-box > div {
+    width: 90vw;
+    margin-bottom: 20px;
+  }
+}

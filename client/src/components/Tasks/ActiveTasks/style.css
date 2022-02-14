@@ -1,0 +1,66 @@
+.task-box-container {
+  padding: 5px 15px;
+  margin: 0 8vw;
+  line-height: 25px;
+}
+.task-box-box {
+  padding: 15px;
+  border-bottom: 2px solid black;
+}
+.task-box-container h6 {
+  font-size: x-large;
+}
+.task-box-container p {
+  font-size: large;
+}
+.task-box-container a > div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+@media screen and (max-width: 820px) {
+  .task-box-container {
+    padding: 4px 10px;
+    margin: 0 2vw;
+    line-height: 24px;
+  }
+  .task-box-box {
+    padding: 8px;
+    border-bottom: 2px solid black;
+  }
+  .task-box-container h6 {
+    font-size: larger;
+  }
+  .task-box-container p {
+    font-size: medium;
+  }
+}
+@media screen and (max-width: 520px) {
+  .task-box-container {
+    padding: 4px 10px;
+    margin:0;
+    line-height: 24px;
+  }
+  .task-box-container h6 {
+    font-size: large;
+  }
+  .task-box-container p {
+    font-size: small;
+  }
+}
+@media screen and (max-width: 450px) {
+  .task-box-container {
+    padding:0;
+    margin:0;
+    line-height: 20px;
+  }
+   .task-box-box {
+    padding: 9px;
+  }
+  .task-box-container h6 {
+    font-size: medium;
+  }
+  .task-box-container p {
+    font-size: x-small;
+  }
+}

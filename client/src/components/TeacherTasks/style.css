@@ -1,0 +1,70 @@
+.teachertask-container > div {
+  color: white;
+  margin: 10px 0;
+  padding: 14px 10px;
+  display: flex;
+  align-items: center;
+  font-size: large;
+  border-radius: 5px;
+  justify-content: space-between;
+  background-color: #1f1e1c;
+}
+.teachertask-student ul li{
+    width: 100%;
+     list-style: none;
+  background-color: #1f1e1c;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 7px 10px;
+  margin: 5px 0;
+}
+.teachertask-student{
+    width: 100%;
+}
+.teachertask-container > div > button,
+.teachertask-container > button {
+  font-size: large;
+  padding: 5px 15px;
+}
+.teachertask-container > div > div > button {
+  font-size: x-large;
+  border: none;
+  background-color: #1f1e1c;
+  color: white;
+  padding: 4px 2px;
+}
+.teachertask-container > button {
+  background-color: #1f1e1c;
+  color: rgb(226, 168, 2);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.815);
+}
+.teachertask-goodnames{
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+.teachertask-goodnames>div{
+align-self: flex-start;
+margin:5px 2.5px ;
+}
+@media screen and (max-width: 560px) {
+  .teachertask-container > div {
+    margin: 0 0;
+    padding: 7px 10px;
+    font-size: small;
+    border-radius: 0;
+    justify-content: space-between;
+    background-color: #1f1e1c;
+  }
+  .teachertask-container > div > button,
+  .teachertask-container > button {
+    font-size: medium;
+    padding: 3px 10px;
+    margin-bottom: 10px;
+  }
+  .teachertask-container > div > div > button {
+    font-size: large;
+  }
+}

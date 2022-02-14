@@ -1,0 +1,138 @@
+.studenttask-prevfiles {
+  width: 100%;
+}
+.studenttask-prevfiles li div > a {
+  color: rgb(226, 168, 2);
+}
+.studenttask-prevfiles li {
+  list-style: none;
+  background-color: #1f1e1c;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  border-radius: 5px;
+  padding: 11px 15px;
+  margin: 5px 0;
+  width: 100%;
+}
+.studenttask-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: max-content;
+  align-items: center;
+}
+.studenttask-top span {
+  width: 200px;
+  padding: 8px;
+  height: 40px;
+  font-size: 25px;
+}
+.studenttask-top> button {
+  width: 120px;
+  font-size: x-large;
+  height: 40px;
+}
+.studenttask-container {
+  width: 100%;
+}
+.studenttask-container >form {
+  margin-top: 20px;
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+}
+.studenttask-container form > div {
+  padding: 5px 30px;
+  background: rgb(226, 168, 2);
+  border: 1px solid rgb(226, 168, 2);
+  position: relative;
+  border-radius: 2px;
+  box-shadow: 0.5px 0.5px 3px black;
+  text-align: center;
+  font-size: larger;
+  float: left;
+  cursor: pointer;
+}
+.studenttask-container form > div > input {
+  position: absolute;
+  z-index: 10;
+  opacity: 0;
+  cursor: pointer;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.studenttask-container > form > button {
+  width: max-content;
+  padding: 5px 15px;
+  font-size: larger;
+}
+@media screen and (max-width: 560px) {
+  .studenttask-prevfiles li {
+    margin: 5px 2px;
+  }
+  .studenttask-top span {
+    width: max-content;
+    padding: 15px;
+    font-size: 20px;
+  }
+  .studenttask-top button {
+    width: max-content;
+    font-size: medium;
+    margin-right: 7px;
+    height: 30px;
+    padding: 2px 8px;
+  }
+  .studenttask-container form > div {
+    margin: 0 3px;
+  }
+  .studenttask-container form button {
+    padding: 5px 10px;
+    font-size: large;
+  }
+}
+@media screen and (max-width:400px) {
+  .studenttask-top span {
+    padding: 0;
+    margin-left: 3px;
+    height: max-content;
+    font-size: 17px;
+  }
+  .studenttask-top button {
+    margin-right: 6px;
+    height: unset;
+    padding: 2.5px 5px;
+  }
+  .studenttask-container form > div {
+    margin: 0 3px;
+  }
+  .studenttask-container form button {
+    padding: 4px 6px;
+    font-size: medium;
+  }
+  .studenttask-prevfiles li div > a {
+  color: rgb(226, 168, 2);
+}
+.studenttask-prevfiles li {
+      border-radius: 5px;
+    padding: 11px 15px;
+    width: 100%;
+    font-size: 12px;
+}
+.studenttask-container form > div {
+  padding: 5px 8px;
+  font-size: medium;
+  float: left;
+  height: 28px;
+  cursor: pointer;
+}
+.studenttask-container > form > button {
+   padding: 5px 8px;
+  font-size: medium;
+  float: left;
+  height: 28px;
+}
+}
