@@ -26,10 +26,10 @@ assign and manage tasks, share resources, take live classes, share recorded lect
 manage all these with user friendly UI. 
 
 ● Learner get these following benefits:
-❖Live video and audio interaction with tutor/instructor (via live classes and chat)
-❖Tasks to analyze the performance of the learner.
-❖Lifelong access to all materials, resources and recorded lectures provided by the tutor/instructor.
-❖Can interact with like-minded peers and tutor/instructor.(via chat server)
+</br>❖Live video and audio interaction with tutor/instructor (via live classes and chat)
+</br>❖Tasks to analyze the performance of the learner.
+</br>❖Lifelong access to all materials, resources and recorded lectures provided by the tutor/instructor.
+</br>❖Can interact with like-minded peers and tutor/instructor.(via chat server)
 
 ●Learners can buy courses of his/her choice by looking at the reviews and ratings of course given by 
 the previous learners without worrying about any problems and hindrances.
