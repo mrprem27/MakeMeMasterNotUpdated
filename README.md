@@ -44,20 +44,18 @@ The implementation was carried out in following steps and sequence
 
 Type  | Step | Description | Status
 ------------- | ------------- | ------------- | -------------
-Setup  | 1 | Front End : React<br>Backend: Nodejs<br>DBMS: MongoDB | Completed
-UI/UX | 2 | Initial UI components | Completed
+Setup  | 1 | Front End : React<br>Backend: Nodejs<br>DBMS: MongoDB | not Updated
+UI/UX | 2 | Initial UI components | not Updated
 Backend | 3 | Account Login | Completed
-Backend | 4 | Manage Doses | Completed
-Feature | 5 | Statistics | Completed
-Feature | 6 | Search Vaccine with District | Completed
-Feature | 7 | Search Vaccine By Pincode | Completed
-Feature | 8 | Search Vaccine By Map | Pending
-Feature | 9 | Filters on Search Vaccine | Completed
-Feature | 10 | Manage Reminders | Completed
-Feature | 11 | Certificate generation | Completed
-Feature | 12 | Quick Find Near Me | Completed
-Feature | 13 | Activate footer | Completed
-Data | 14 | Add FAQs and Home page data | Completed
+Backend | 4 | Manage Classes | Completed
+Backend | 5 | Statistics | not Updated
+Backend | 6 | Manage Courses | Completed
+Backend | 7 | Live Classes | Completed
+Backend | 8 | Task Management | Completed
+Backend | 9 | Chat Server | Completed
+Backend | 10 | Notifications | pending
+Backend | 11 | Report Account | pending
+Data | 12 | Add FAQs and Home page data | pending
 
 ## Build and run the project
 ```
