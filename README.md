@@ -1,6 +1,6 @@
 # MakeMeMaster
 #<a href="https://makememaster.netlify.app">Deployed Link</a>
-This project is being made for Skill Development.
+This project is being made for Self Learning.(Personal Project)
 
 # Theme of the project
 ## Skill Learning
@@ -55,6 +55,7 @@ Backend | 8 | Task Management | Completed
 Backend | 9 | Chat Server | Completed
 Backend | 10 | Notifications | pending
 Backend | 11 | Report Account | pending
+Backend | 12 | Upload Recorded Lectures | pending 
 Data | 12 | Add FAQs and Home page data | pending
 
 ## Build and run the project
