@@ -44,7 +44,7 @@ The implementation was carried out in following steps and sequence
 
 Type  | Step | Description | Status
 ------------- | ------------- | ------------- | -------------
-Setup  | 1 | Front End : React<br>Backend: Nodejs<br>DBMS: MongoDB | not Updated
+Setup  | 1 | Front End : React<br>Backend: Nodejs<br>DBMS: MongoDB | Completed
 UI/UX | 2 | Initial UI components | not Updated
 Backend | 3 | Account Login | Completed
 Backend | 4 | Manage Classes | Completed
