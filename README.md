@@ -2,8 +2,8 @@
 #<a href="https://makememaster.netlify.app">Deployed Link</a>
 This project is being made for Self Learning.(Personal Project)
 
-# Theme of the project
-## Skill Learning
+<h3>Theme of the project</h3>
+<p>* Skill Learning *<p>
 
 # Problem Statement Description
 ●"Learning never ends, but what ends learning?" There are many barriers to 
