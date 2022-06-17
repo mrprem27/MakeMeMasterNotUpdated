@@ -48,7 +48,7 @@ Setup  | 1 | Front End : React<br>Backend: Nodejs<br>DBMS: MongoDB | Completed
 UI/UX | 2 | Initial UI components | not Updated
 Backend | 3 | Account Login | Completed
 Backend | 4 | Manage Classes | Completed
-Backend | 5 | Statistics | not Updated
+Backend | 5 | Statistics | pending
 Backend | 6 | Manage Courses | Completed
 Backend | 7 | Live Classes | Completed
 Backend | 8 | Task Management | Completed
